@@ -1,0 +1,13 @@
+.cat_description {
+    max-width: 50%;
+    min-height: 100%;
+}
+
+.cat_description_container {
+    position: sticky;
+    top: 10px;
+}
+
+.cat_description_picture {
+    margin-top: 15px;
+}
