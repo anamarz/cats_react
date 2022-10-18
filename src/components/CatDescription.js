@@ -2,7 +2,7 @@ import style from './styles/catDescription.module.css'
 
 const CatDescription = (props) => {
     const { CatDescription } = props;
-    const { name, bio, pic } = CatDescription;
+    const { bio, pic } = CatDescription;
 
     return(
         <div className={style.cat_description}>
@@ -11,7 +11,7 @@ const CatDescription = (props) => {
                 <img 
                 className={style.cat_description_picture}
                 src = {'https://serene-mesa-35124.herokuapp.com/files' + pic}
-                alt = 'cat picture'
+                alt = 'cat'
                 />
                 <p>{bio}</p>
             </div>
